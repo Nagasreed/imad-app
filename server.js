@@ -10,25 +10,13 @@ var articles = {
 title: 'Article one .. Im Varun',
 heading: 'Article One',
 date: 'August 5,2017',
-content: 
-<p>
-This is the conent for my first article.This is the conent for my first article.This is the conent for my first article.This is the conent for my first article.This is the conent for my first article.This is the conent for my first article. 
-</p>
-<p>
-This is the conent for my first article.This is the conent for my first article.This is the conent for my first article.This is the conent for my first article.This is the conent for my first article.This is the conent for my first article. 
-</p>
-<p>
-This is the conent for my first article.This is the conent for my first article.This is the conent for my first article.This is the conent for my first article.This is the conent for my first article.This is the conent for my first article. 
-</p> 
+content:'<p>This is the conent for my first article.This is the conent for my first article.This is the conent for my first article.This is the conent for my first article.This is the conent for my first article.This is the conent for my first article.</p>'
 },
 'article-two': {
 title: 'Article Two .. Im Varun',
 heading: 'Article Two',
 date: 'August 10,2017',
-content: 
-<p>
-This is the conent for my second article. 
-</p>
+content: '<p>This is the conent for my second article. </p>'
 
 },
 'article-three': {
