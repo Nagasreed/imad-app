@@ -21,12 +21,12 @@ var articles={
         date:'Aug 29 2017',
     content:'<p>This is my Third Article</p>'}
 };
-function createTemplate(dat)
+function createTemplate()
 {
-   var title=dat.title;
-    var date=dat.date;
-    var heading=dat.heading;
-    var content=dat.content;
+   var title=data.title;
+    var date=data.date;
+    var heading=data.heading;
+    var content=data.content;
    var htmltemplate='<html><head> <meta name="viewpart" content="width-device-width" initial-scale=1/><link rel="stylesheet" type="text/css" href="/ui/style.css"></head><body><div class="container"> <div><a href="/">Home</a></div><h4>${heading}</h4> <div>${date}</div><div>${content}</div></body></html>';
 }
 app.get('/',function (req, res) {
