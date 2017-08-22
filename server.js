@@ -6,24 +6,24 @@ app.use(morgan('combined'));
 
 var articles={
     'articleone':{
-       title:'Article-one|Nagasree D',
+      // title:'Article-one|Nagasree D',
        heading:'Article-one',
        date:'Aug 22 2017',
        content:'<p>This is my first ArticleThis is my first Article ArticleThis is my first Article This is my first</p>'},
   'articletwo':{
-        title:'Article-two|Nagasree D',
+        //title:'Article-two|Nagasree D',
         heading:'Article-two',
         date:'Aug 28 2017',
         content:'<p>This is my Second Article</p>'},
 'articlethree': {
-        title:'Article-three|Nagasree D',
+       // title:'Article-three|Nagasree D',
         heading:'Article-three',
         date:'Aug 29 2017',
     content:'<p>This is my Third Article</p>'}
 };
 function createTemplate(data)
 {
-    var title=data.title;
+   // var title=data.title;
     var date=data.date;
     var heading=data.heading;
     var content=data.content;
