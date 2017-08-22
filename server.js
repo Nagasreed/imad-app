@@ -7,25 +7,20 @@ app.use(morgan('combined'));
 
 var articles={
     articleone:{
-        title:'Article-one|Nagasree D',
-        heading:"Article-one",
-        date:'Aug 22 2017',
-        content:'<p>This is my first ArticleThis is my first Article This is my first ArticleThis is my first Article This is my first ArticleThis is my first Article This is my first ArticleThis is my first Article This is my first ArticleThis is my first Article This is my first ArticleThis is my first Article This is my first ArticleThis is my first ArticleThis is my first ArticleThiThis is my first ArticleThis is my first Article This is my first ArticleThis is my first Article</p>'
-    },
-    articletwo:
-    {
+       title:'Article-one|Nagasree D',
+       heading:'Article-one',
+       date:'Aug 22 2017',
+       content:'<p>This is my first ArticleThis is my first Article ArticleThis is my first Article This is my first</p>'},
+    articletwo:{
         title:'Article-two|Nagasree D',
         heading:'Article-two',
-        Date:'Aug 28 2017',
-        content:'<p>This is my Second Article</p>'
-    },
-    articlethree:
-    {
+        date:'Aug 28 2017',
+        content:'<p>This is my Second Article</p>'},
+    articlethree: {
         title:'Article-three|Nagasree D',
         heading:'Article-three',
-        Date:'Aug 29 2017',
-        content:'<p>This is my Third Article</p>'
-    }
+        date:'Aug 29 2017',
+    content:'<p>This is my Third Article</p>'}
 };
 function createTemplate(data)
 {
