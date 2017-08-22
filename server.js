@@ -28,16 +28,16 @@ function createTemplate(data)
     var date=data.date;
     var heading=data.heading;
     var content=data.content;
-   var htmltemplate=
-   '<html><head><title>${title}</title> 
-   '<meta name="viewpart" content="width-device-width" initial-scale=1/>
-   '<link rel="stylesheet" type="text/css" href="/ui/style.css"></head>
-   '<body><div class="container">
-   '<div><a href="/">Home</a></div>
-   '<h4>${heading}</h4> 
-   '<div>${date}</div>
-   '<div>${content}</div>
-   '</body></html>;
+   var htmltemplate='
+   <html><head><title>{$title}</title> 
+   <meta name="viewpart" content="width-device-width" initial-scale=1/>
+   <link rel="stylesheet" type="text/css" href="/ui/style.css"></head>
+   <body><div class="container">
+   <div><a href="/">Home</a></div>
+   <h4>{$heading}</h4> 
+   <div>${date}</div>
+   <div>${content}</div>
+   </body></html>';
 return htmltemplate;
 }
 
