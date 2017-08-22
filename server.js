@@ -6,17 +6,18 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles={
-    articleone:{
+    'article-one':{
        title:'Article-one|Nagasree D',
        heading:'Article-one',
        date:'Aug 22 2017',
        content:'<p>This is my first ArticleThis is my first Article ArticleThis is my first Article This is my first</p>'},
-    articletwo:{
+    
+    'article-two':{
         title:'Article-two|Nagasree D',
         heading:'Article-two',
         date:'Aug 28 2017',
         content:'<p>This is my Second Article</p>'},
-    articlethree: {
+    'article-three': {
         title:'Article-three|Nagasree D',
         heading:'Article-three',
         date:'Aug 29 2017',
@@ -28,8 +29,7 @@ function createTemplate(data)
     var date=data.date;
     var heading=data.heading;
     var content=data.content;
-   var htmltemplate='<html><head><title>${title}</title> <meta name="viewpart" content="width-device-width" initial-scale=1/><link rel="  stylesheet"   type="text/css" href="/ui/style.css"></head><body><div class="container"><div><a href="/">Home</a></div><h4>${heading}</h4> <div>${date}</div>  <div>${content}</div> </body></html>'
-  ;
+   var htmltemplate='<html><head><title>${title}</title> <meta name="viewpart" content="width-device-width" initial-scale=1/><link rel="  stylesheet"   type="text/css" href="/ui/style.css"></head><body><div class="container"><div><a href="/">Home</a></div><h4>${heading}</h4> <div>${date}</div>  <div>${content}</div> </body></html>';
 return htmltemplate;
 }
 
