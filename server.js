@@ -62,6 +62,5 @@ res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 // Use 8080 only for local development if you already have apache running on 80
 
 var port = 80;
-app.listen(port, function () {
-console.log(IMAD course app listening on port ${port}!);
+app.listen(port, function () {console.log('IMAD course app listening on port ${port}!');
 });
